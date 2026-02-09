@@ -19,7 +19,7 @@ $$T = 2\pi \sqrt{\frac{L}{g}}$$
 ### **1. The Data (Terminal Output)**
 The simulation runs a precision test at 20, 40, 60, and 100 decimal places. As shown in the output below, the **Gap** column highlights the penalty for using Truncation instead of Rounding.
 
-![Terminal Output Screenshot](image_terminal_output.png)
+![Terminal Output Screenshot](image/terminal_output.png)
 *(Note: At 40 decimal places, the gap is clearly visible. At 100 decimal places, the error converges to zero.)*
 
 ---
@@ -32,7 +32,7 @@ The project generates a logarithmic graph to visualize the Error Decay.
 * **Green Line (Rounding):** Consistently lower error (Better Accuracy).
 * **Red Line (Truncation):** Consistently higher error (Worse Accuracy).
 
-![Graph Visualization](graph_result.png)
+![Graph Visualization](image/graph_result.png)
 
 ---
 
